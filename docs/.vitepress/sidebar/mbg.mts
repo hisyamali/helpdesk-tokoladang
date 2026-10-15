@@ -9,5 +9,6 @@ export const dapurMbgGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
 export const supplierMbgGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
     return [
         {text:'Registrasi Supplier', link:'/mbg/merchant/20261012-122535-registrasi'},
+        {text:'Tambah Produk', link:'/mbg/merchant/20261014-105012-tambah-produk'},
     ]
 }
