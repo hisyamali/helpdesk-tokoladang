@@ -22,12 +22,17 @@ const head = createHead(VITE_GA_ID)
 // navbar items
 
 const navbarItems = [
-    { text: 'Panduan SIPLah Satdik', link: '/guide/list', activeMatch: '/guide/' },
-    { text: 'Panduan Dapur MBG', link: '/mbg/list', activeMatch: '/mbg/' },
-    { text: 'Blog', link: '/blog/list', activeMatch: '/blog/' },
-    { text: 'Legal', link: '/legal/about-siplah', activeMatch: '/legal/' },
-    { text: 'FAQ', link: '/faq', activeMatch: '/faq' },
-    { text: 'Download', link: '/download', activeMatch: '/download' },
+    { text: 'SIPLah Satdik', link: '/guide/list', activeMatch: '/guide/' },
+    { text: 'Dapur MBG', link: '/mbg/list', activeMatch: '/mbg/' },
+    {
+        text: 'Lainnya',
+        items: [
+            { text: 'Blog', link: '/blog/list', activeMatch: '/blog/' },
+            { text: 'Legal', link: '/legal/about-siplah', activeMatch: '/legal/' },
+            { text: 'FAQ', link: '/faq', activeMatch: '/faq' },
+            { text: 'Download', link: '/download', activeMatch: '/download' },
+        ],
+    },
 ]
 
 export default defineConfig({
