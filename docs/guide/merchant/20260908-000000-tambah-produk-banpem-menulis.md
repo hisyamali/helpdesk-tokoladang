@@ -49,9 +49,9 @@ Paket produk berisikan:
 - Buku Berlatih Menulis Kata - 1 buah
 - Buku Berlatih Menulis Kalimat - 1 buah
 
-Link Referensi Penunjukan: http://siaspri.test/reseller/ASPRI-SN-88245
+Contoh Link Referensi Penunjukan: https://siaspri.id/reseller/ASPRI-INICONTOH-123
 
-![isi kolom deskripsi](/images/banpem/banpem-15.png)
+![isi kolom deskripsi](/images/banpem/banpem-19.png)
 
 13. Setelah itu Anda dapat melanjutkan mengisi data produk seperti biasa
 14. Kategori pajak pada produk Banpem ini Dikenakan PPN
