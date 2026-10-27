@@ -36,9 +36,9 @@ date: 2026-09-08
 11. Setelah berhasil melakukan TTE dan pembubuhan E-Meterai, isi data paket produk Banpem Menulis
 ![isi data produk](/images/banpem/banpem-14.png)
 12. Pada kolom Deskripsi pastikan memetakan paket produk dan link referensi penunjukan dari principal
-<br/>
+
 Contoh isi kolom Deskripsi:
-<br/><br/>
+
 Paket produk berisikan:
 - Buku Bergaris Dua (Reguler) - 3 buah
 - Buku Bergaris Tiga/Lima (Buku Halus Kasar) - 3 buah

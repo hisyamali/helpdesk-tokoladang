@@ -3,6 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const dapurMbgGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
     return [
         {text:'Login SSO BGN', link:'/mbg/sppg/20261012-122715-login-sso-bgn'},
+        {text:'Cara Bertransaksi (Pembeli/SPPG)', link:'/mbg/sppg/20261027-103454-cara-transaksi-pembeli'},
     ]
 }
 
