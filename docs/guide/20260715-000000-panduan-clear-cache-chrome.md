@@ -8,41 +8,36 @@ date: 2026-02-10
 
 <PageDate />
 
-Hallo sobat Toko Ladang,
+Halo, Sobat Toko Ladang!
 
-Sebelum mencoba Panduan clear cache browser google chrome di bawah ini sobat tokla bisa mencoba dulu shortcut (jalan pintas):
+Apakah Sobat mengalami error saat melakukan checkout pesanan? Jika iya, coba bersihkan (clear) cache browser Sobat terlebih dahulu. Ikuti langkah-langkah berikut ini:
 
-**Windows : CTRL+Shift+R**
+## 1. Klik ikon di sebelah kolom alamat (URL)
 
-**MacOS : Command+Shift+R**
+Perhatikan ikon kecil yang ada di sebelah kiri alamat website pada kolom URL browser.
 
-Jika jalan pintas di atas belum bisa menyelesaikan masalah sobat tokla, lakukan clear cache browser sesuai panduan di bawah ini:
+## 2. Klik **Cookies and site data**
 
-1. Klik icon di sebelah URL
-2. Klik **Cookies and site data**
+![Klik Cookies and site data](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3af3ytwyxqdam58yrzfkee.webp)
 
-![Klik Cookies and site data](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3af3ytwyxqdam58yrzfkee.webp)(https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3af3ytwyxqdam58yrzfkee.webp)
+## 3. Klik **Manage on-device site data**
 
-3. Klik **manage on-device site data**
+![Klik manage on-device site data](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ah861veb9cgzdxzrx98h4.webp)
 
-![Klik manage on-device site data](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ah861veb9cgzdxzrx98h4.webp)(https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ah861veb9cgzdxzrx98h4.webp)
+## 4. Klik ikon **Hapus** (berbentuk tempat sampah), lalu pilih **Hapus semuanya**
 
-4. Klik icon **Hapus**, **hapus semuanya**
+![Klik hapus data site](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajhhqws0xe41jdb9vm7fc.webp)
 
-![Klik hapus data site](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajhhqws0xe41jdb9vm7fc.webp)(https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajhhqws0xe41jdb9vm7fc.webp)
+## 5. Klik tombol **Reload**
 
-5. Klik tombol **Reload**
+![Klik tombol Reload](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajttbry3a79xh3dvhcp43.webp)
 
-![Klik tombol Reload](https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajttbry3a79xh3dvhcp43.webp)(https://cdn-pusatinformasi.siplahtokoladang.id/resources/images/01kh3ajttbry3a79xh3dvhcp43.webp)
+Setelah halaman dimuat ulang, Sobat bisa mencoba kembali proses checkout pesanan.
 
-Sobat TokLa, juga bisa melihat panduan video berikut :
+::: tip
+Sobat TokLa juga dapat menyimak panduan dalam bentuk video berikut:
 
 https://www.youtube.com/watch?v=1feV62bOxmg
+:::
 
-Semoga berhasil, Salam Toko Ladang.
-
----
-
-Channel Telegram SIPLah Toko Ladang : https://t.me/siplahtokoladang
-
-[cs@tokoladang.co.id](mailto:cs@tokoladang.co.id)
+Semoga berhasil. Salam Toko Ladang!
