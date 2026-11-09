@@ -11,5 +11,6 @@ export const supplierMbgGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
     return [
         {text:'Registrasi Supplier', link:'/mbg/merchant/20261012-122535-registrasi'},
         {text:'Tambah Produk', link:'/mbg/merchant/20261014-105012-tambah-produk-mbg'},
+        {text:'Cara Bertransaksi (Supplier/Merchant)', link:'/mbg/merchant/20261106-100851-transaksi-penjual'},
     ]
 }

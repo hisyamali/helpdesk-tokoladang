@@ -102,5 +102,6 @@ form sudah terisi semua.
 
 ![isi form](/images/image-8.png) ![klik simpan](/images/image-9.png)
 
-> [!WARNING] PERHATIAN
-> Selamat Toko Anda sudah berhasil dibuat, **Tunggu verifikasi** dari tim SIPLah Toko Ladang.
+::: warning PERHATIAN
+Selamat Toko Anda sudah berhasil dibuat, **Tunggu verifikasi** dari tim SIPLah Toko Ladang.
+:::

@@ -81,6 +81,6 @@ Dokumen negosiasi dapat diunduh setelah proses pemesanan berhasil dibuat.
 
 Selamat bernegosiasi, salam tokla!
 
-> [!WARNING]
->
-> - Jika ada negosiasi **belum selesai(belum di checkout)**, maka sekolah tidak dapat melakukan negoasiasi baru.
+::: warning Catatan
+- Jika ada negosiasi **belum selesai(belum di checkout)**, maka sekolah tidak dapat melakukan negoasiasi baru.
+:::

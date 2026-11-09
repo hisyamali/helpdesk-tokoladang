@@ -8,7 +8,16 @@ date: 2026-10-27
 
 <PageDate />
 
-Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko Ladang, mulai dari mencari produk, checkout, memantau pesanan, mengatur BAST, hingga pembayaran dan verifikasi tagihan.
+Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko Ladang, mulai dari mencari produk, negosiasi harga dengan penjual, checkout, memantau pesanan, mengatur BAST, hingga pembayaran dan verifikasi tagihan.
+
+## Dua jalur transaksi
+
+| Jalur | Kapan dipakai | Bagian |
+|---|---|---|
+| **Transaksi biasa** | Menerima harga daftar produk tanpa penawaran | [Bagian 2](#keranjang-checkout) |
+| **Negosiasi harga** | Ingin menawar harga sebelum membeli | [Bagian 6](#negosiasi) |
+
+Setelah checkout (baik jalur biasa maupun hasil negosiasi), alur dilanjutkan ke [bagian 3 (Pantau status pesanan)](#pantau-status), [bagian 4 (Penerimaan barang dan BAST)](#penerimaan-bast), dan [bagian 5 (Pembayaran pesanan)](#pembayaran).
 
 ## Prasyarat
 
@@ -16,7 +25,7 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 - Sumber dana transaksi sudah tersedia dan sesuai dengan kebutuhan pembelian (contoh pada panduan ini menggunakan **Banpem MBG 2026**).
 - Memahami bahwa setelah BAST disepakati, dokumen **tidak dapat dibatalkan** dan SPPG wajib membayar sesuai **proforma invoice**.
 
-## 1. Cari dan pilih produk
+## 1. Cari dan pilih produk {#cari-pilih-produk}
 
 1. Setelah login, tampilan awal beranda SIPLah Toko Ladang menampilkan daftar kategori populer dan produk terbaru.
 
@@ -34,7 +43,9 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 
    ![Detail produk dan tambah ke keranjang](/images/mbg/transaksi/4.png)
 
-## 2. Keranjang dan checkout
+## 2. Keranjang dan checkout (transaksi biasa) {#keranjang-checkout}
+
+Jalur ini dipakai bila Anda **menerima harga daftar produk** tanpa penawaran. Jika ingin menawar harga terlebih dahulu, lewati bagian ini dan ikuti [bagian 6 (Negosiasi harga)](#negosiasi).
 
 1. Buka tab **Keranjang**, periksa kembali barang, jumlah, dan harga pada **Ringkasan Belanja**, lalu klik tombol **Lanjutkan ke halaman checkout**.
 
@@ -53,7 +64,8 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 
    ![Pop-up pernyataan syarat dan ketentuan pesanan](/images/mbg/transaksi/7.png)
 
-## 3. Pantau status pesanan
+
+## 3. Pantau status pesanan {#pantau-status}
 
 1. Pesanan berhasil dibuat. Halaman **Detail Pesanan** menampilkan **Nomor Pesanan**, **Penjual**, **Ekspedisi**, **Tanggal Pemesanan**, **Batas Waktu Penyelesaian**, dan **Sumber Dana**, dengan status pesanan **Menunggu Diproses Penjual** dan status tagihan **Belum Terbayar**. Unduh **Draf Surat Pesanan (SP)** pada kolom **Berkas** sebagai dokumen awal. Satu-satunya aksi yang tersedia sekarang adalah **Batalkan Transaksi**.
 
@@ -71,7 +83,7 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 
    ![Detail pesanan status terkirim dengan tombol Atur BAST](/images/mbg/transaksi/11.png)
 
-## 4. Penerimaan barang dan BAST
+## 4. Penerimaan barang dan BAST {#penerimaan-bast}
 
 1. Form **Atur Kesepakatan BAST** menampilkan **Informasi SPPG** yang akan menjadi penandatangan BAST elektronik. Isi:
    - **Nama Penerima**, **Jabatan Penerima**, **NIP/ID Penerima**, dan **No. Telepon Penerima**.
@@ -94,7 +106,7 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 
    ![Pop-up konfirmasi kesepakatan BAST](/images/mbg/transaksi/15.png)
 
-## 5. Pembayaran pesanan
+## 5. Pembayaran pesanan {#pembayaran}
 
 1. Sistem menampilkan pop-up berisi **Nomer Virtual Akun (Bank ...)** beserta nomornya. Catat nomor Virtual Akun tersebut, kemudian gunakan tombol yang tersedia:
    - **Cek Status Pembayaran** untuk memeriksa apakah pembayaran sudah terverifikasi.
@@ -115,8 +127,39 @@ Panduan ini menjelaskan alur transaksi lengkap dari sisi pembeli di SIPLah Toko 
 
    ![Detail pesanan dengan pembayaran terverifikasi](/images/mbg/transaksi/19.png)
 
+## 6. Negosiasi harga (opsional) {#negosiasi}
+
+Jalur ini dipakai bila Anda ingin **menawar harga** sebelum membeli. Setelah harga disepakati, checkout dilakukan pada langkah 6, lalu alur dilanjutkan ke [bagian 3 (Pantau status pesanan)](#pantau-status).
+
+Langkah ini hanya diperlukan bila Anda ingin menawar harga produk sebelum membeli. Bila tidak, lanjutkan langsung ke pemantauan pesanan.
+
+1. Pada halaman **Keranjang**, Masukkan quantity yang ingin dibeli. klik tombol **Negosiasi** pada item yang ingin ditawar.
+
+   ![Tab negosiasi pada keranjang belanja](/images/mbg/transaksi/negosiasi/5.png)
+
+2. Isi **Harga Nego** dengan harga yang Anda ajukan, tambahkan **Tambahkan Catatan (Opsional)** bila perlu (misalnya alasan penawaran), lalu klik tombol kirim nego.
+
+   ![Form pengajuan harga nego](/images/mbg/transaksi/negosiasi/6.png)
+
+3. Penawaran tercatat pada tab **Negosiasi** dengan status **Menunggu direspon penjual**. Selama negosiasi masih aktif, item tersebut belum dapat di-checkout.
+
+   ![Negosiasi menunggu respon penjual](/images/mbg/transaksi/negosiasi/7.png)
+
+4. Setelah penjual merespons dan menyetujui harga nego, nominal item berubah mengikuti harga kesepakatan (contoh: 2 × Rp25.000) dan tombol **Lanjutkan ke halaman checkout** menjadi tersedia.
+
+   ![Negosiasi disetujui penjual dan siap checkout](/images/mbg/transaksi/negosiasi/8.png)
+
+5. Klik tombol **Lihat Detail** untuk melihat **Riwayat Nego**, mulai dari harga awal hingga harga hasil negosiasi beserta statusnya.
+
+   ![Riwayat negosiasi harga](/images/mbg/transaksi/negosiasi/9.png)
+
+6. Setelah harga disepakati, lanjutkan ke halaman checkout seperti transaksi biasa. Periksa **Alamat Pengiriman**, **Lama Pengerjaan** beserta estimasi tanggal, metode **Pengiriman**, dan **Total Pembayaran** yang sudah memakai harga nego, kemudian klik **Buat Pesanan Baru**. Halaman checkout ini dapat dibuka kembali dengan tombol **Kembali ke Negosiasi**.
+
+   ![Checkout pesanan hasil negosiasi](/images/mbg/transaksi/negosiasi/10.png)
+
 ## Catatan penting
 
+- Selama item masih memiliki negosiasi aktif (**Menunggu direspon penjual**), item tersebut belum dapat di-checkout. Harga yang dipakai pada saat checkout adalah harga hasil kesepakatan negosiasi.
 - Perhatikan **Batas Waktu Penyelesaian** pada setiap pesanan (contoh: 30 hari sejak tanggal pemesanan). Selesaikan penerimaan barang dan pembayaran sebelum batas waktu terlampaui.
 - Setelah BAST dicetak, dokumen bersifat **final** dan tidak dapat dibatalkan. Pastikan data penerima, qty, dan harga sudah benar sebelum konfirmasi.
 - Pembayarannya dilakukan melalui metode yang dipilih saat pemeriksaan pesanan. Panduan transfer per bank tersedia di [Daftar Panduan Cara Pembayaran](/guide/list#cara-pembayaran).
