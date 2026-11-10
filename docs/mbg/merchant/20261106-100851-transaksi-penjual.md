@@ -53,10 +53,10 @@ Setelah respons negosiasi disetujui, pesanan yang masuk mengikuti harga hasil ke
     - Kolom pencarian **Cari pesanan anda disini** berdasarkan kode pesanan atau nama sekolah.
     - Tombol **Ekspor** untuk mengunduh rekap pesanan.
 
-    ![Daftar pesanan penjual beserta filter status](/images/mbg/transaksi-penjual/4.png)
 
 3. Kolom **Informasi Pesanan** menampilkan kode pesanan, nama sekolah/SPPG, tanggal pesanan, serta **Nominal** pesanan dan **Status** terkini.
 4. Pada **Daftar Pesanan** klik **nomor PO** atau tombol icon titik 3 **(...)** untuk melihat detail pesanan
+    ![Daftar pesanan penjual beserta filter status](/images/mbg/transaksi-penjual/4.png)
 
 ## 3. Konfirmasi proses pesanan
 
@@ -64,13 +64,10 @@ Setelah respons negosiasi disetujui, pesanan yang masuk mengikuti harga hasil ke
    ![Detail pesanan penjual status baru](/images/mbg/transaksi-penjual/5.png)
 2. Lengkapi isian pada pop-up tersebut:
     - **Jangka Waktu Pelaksanaan Pekerjaan** dan **Estimasi Pengiriman** sesuai kesiapan barang.
-    - **Metode Transfer Beda Bank** untuk pencairan dana ke rekening toko, dengan pilihan:
-        - **SKN Online** — biaya **Rp2.900**, relatif lebih lambat. Dana diteruskan pada hari yang sama untuk transaksi yang terverifikasi **sebelum pukul 12:00**.
-        - Pilihan berbiaya **Rp6.500** — relatif lebih cepat. Dana diteruskan pada hari yang sama untuk transaksi yang terverifikasi **sebelum pukul 16:00**.
 
-    ![Pop-up konfirmasi proses pesanan dan metode transfer](/images/mbg/transaksi-penjual/6.png)
 
 3. Setelah klik **Proses**, status pesanan berubah menjadi **Diproses**.
+    ![Pop-up konfirmasi proses pesanan dan metode transfer](/images/mbg/transaksi-penjual/pop-up-cofirm.png)
 
 ## 5. Kirim pesanan
 
@@ -78,7 +75,7 @@ Setelah respons negosiasi disetujui, pesanan yang masuk mengikuti harga hasil ke
 
     ![Detail pesanan status pesanan dibuat](/images/mbg/transaksi-penjual/7.png)
 
-2. Isi **Nomor Resi** bila menggunakan ekspedisi yang memiliki nomor resi. Kolom ini bersifat **opsional**, misalnya untuk pengiriman dengan **Kurir Toko**.
+2. Isi **Nomor Resi** bila menggunakan ekspedisi yang memiliki nomor resi. Kolom ini bersifat **opsional**, misalnya untuk pengiriman tidak dengan **Kurir Toko**.
 3. Klik tombol **Simpan** untuk mengonfirmasi pengiriman. Status pesanan berubah menjadi **Pengiriman** dan pembeli dapat memantau pengiriman tersebut.
 
     ![Form konfirmasi pengiriman dan input nomor resi](/images/mbg/transaksi-penjual/8.png)
