@@ -23,5 +23,9 @@ export const merchantGuideSidebarItem = (): DefaultTheme.SidebarItem[] => {
             text: 'Tambah Produk Secara Massal',
             link: '/guide/merchant/20260928-000000-tambah-produk-massal',
         },
+        {
+            text: 'Panduan Memproses Pesanan',
+            link: '/guide/merchant/20261109-000000-panduan-memproses-pesanan',
+        },
     ]
 }
