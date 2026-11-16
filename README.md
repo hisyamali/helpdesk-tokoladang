@@ -43,5 +43,3 @@ docs/
 ├── index.md                           # Halaman depan
 └── faq.md                             # FAQ
 ```
-
-<!-- cek repo -->
